@@ -1,5 +1,6 @@
 # Iris-Exploit-Bundle
-Created by [Michael48](https://github.com/Michael-48), bundled by [me](https://github.com/x0581) for exploit usage
+Created by [Michael48](https://github.com/Michael-48), bundled by [x0581](https://github.com/x0581) for exploit usage
+I am not the creator of this script!!!
 
 I am releasing this bundled version of Iris for Exploit Usage.
 I am not the creator, I simply bundled it into a single file, and removed LuaU operators for compatibility.

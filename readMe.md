@@ -10,7 +10,7 @@ Scripts I made with it:
 
 Example Usage:
 ```lua
-local Iris = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ruedyias/Iris-ImGui/refs/heads/main/Iris.lua?token=GHSAT0AAAAAADR4HHP7ULIEPY6BPQQ36E7U2MLQAKQ"))().Init(game.CoreGui)
+local Iris = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ruedyias/Iris-ImGui/refs/heads/main/Iris.lua"))().Init(game.CoreGui)
 Iris:Connect(Iris.ShowDemoWindow)
 Iris:Connect(function()
     Iris.Window({"My First Window!"}) do

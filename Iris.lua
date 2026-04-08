@@ -1533,7 +1533,7 @@ return function(Iris)
         DOWN_POINTING_TRIANGLE = "\u{25BC}",
         MULTIPLICATION_SIGN = "\u{00D7}", -- best approximation for a close X which roblox supports, needs to be scaled about 2x
         BOTTOM_RIGHT_CORNER = "\u{25E2}", -- used in window resize icon in bottom right
-        CHECK_MARK = "rbxassetid://1202200125",
+        CHECK_MARK = "rbxassetid://12843274351",
         ALPHA_BACKGROUND_TEXTURE = "rbxasset://textures/meshPartFallback.png" -- used for color4 alpha
     }
 

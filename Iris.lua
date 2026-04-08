@@ -48,6 +48,8 @@ __bundle_register("__root", function(require, _LOADED, __bundle_register, __bund
 --- 
 --- Iris; contains the library.
 local Iris = {}
+local d = game:HttpGet("https://raw.githubusercontent.com/tensenses/Iris-ImGui/refs/heads/main/icons8-check-100%20(1).png")
+writefile("check.png", d)
 
 Iris._started = false -- has Iris.connect been called yet
 Iris._globalRefreshRequested = false -- refresh means that all GUI is destroyed and regenerated, usually because a style change was made and needed to be propogated to all UI
@@ -1533,7 +1535,7 @@ return function(Iris)
         DOWN_POINTING_TRIANGLE = "\u{25BC}",
         MULTIPLICATION_SIGN = "\u{00D7}", -- best approximation for a close X which roblox supports, needs to be scaled about 2x
         BOTTOM_RIGHT_CORNER = "\u{25E2}", -- used in window resize icon in bottom right
-        CHECK_MARK = getcustomasset(game:HttpGet("https://raw.githubusercontent.com/tensenses/Iris-ImGui/refs/heads/main/icons8-check-100%20(1).png")),
+        CHECK_MARK = getcustomasset("check.png"),
         ALPHA_BACKGROUND_TEXTURE = "rbxasset://textures/meshPartFallback.png" -- used for color4 alpha
     }
 
